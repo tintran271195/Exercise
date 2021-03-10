@@ -1,0 +1,7 @@
+input[type="button"] {
+  padding: 10px 15px;
+  font-size: large;
+  background-color: aquamarine;
+  color: red;
+  margin: 5px;
+}
