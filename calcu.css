@@ -5,3 +5,10 @@ input[type="button"] {
   color: red;
   margin: 5px;
 }
+td {
+  width: 60px;
+  height: 60px;
+}
+td input {
+  width: 100%;
+}
