@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="button" onclick="myFunction()" value="Click click" />
+    <script>
+      function myFunction() {
+        let count = 0;
+        let number = Number(prompt("nhập số cần tìm "));
+        for (let i = 2; i <= number; i++) {
+          let cnt = 0;
+          for (let j = 2; j <= i - 1; j++) {
+            if (i % j == 0) {
+              cnt++;
+            }
+          }
+          if (cnt == 0) {
+            count++;
+            document.write(i + "<br>");
+            if (count == number) {
+              break;
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
