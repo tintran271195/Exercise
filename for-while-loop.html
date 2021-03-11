@@ -8,25 +8,22 @@
   </head>
   <body></body>
   <script>
-    let i = parseInt(prompt("nhập số bạn muốn :"));
+    let i = prompt("nhập số bạn muốn :");
     console.log(i);
     // for loop
-    for (; i > 0 || i === number; ) {
-      document.write(i + " là số nguyên dương");
-      break;
+    for (; i < 0 || i != parseInt(i); ) {
+      i = prompt("nhập lại");
     }
 
-    // // while loop
-    // while (i > 0 || i === number) {
-    //   document.write(i + "là số nguyên dương");
-    //   break;
+    // while loop
+    // while (i < 0 || i != parseInt(i)) {
+    //   i = prompt("Nhập lại");
     // }
+    // document.write(i+ "là số nguyên dương")
     // do - while loop
-    // if (i > 0 || i === number) {
     //   do {
     //     document.write(i + "là số nguyên dương");
     //     break;
     //   } while (i > 0);
-    // }
   </script>
 </html>
