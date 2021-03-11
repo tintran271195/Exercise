@@ -8,14 +8,13 @@
   </head>
   <body></body>
   <script>
-    let total = 0;
-    let num = prompt("enter a number");
+    let total;
+    let num;
     while (num != -1) {
       num = prompt("Enter a number: ");
-      console.log(num);
-      document.write(num);
-      //phần code tính tổng
-      total += num;
+
+      total = total + num;
+      console.log(total);
     }
   </script>
 </html>
